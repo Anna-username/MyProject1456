@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-License: https://apache.org/licenses/LICENSE-2.0
+Bundle-Description: TestNG is a testing framework.
+Import-Package: 
+                "bsh.*;version="[2.0.0,3.0.0)";resoluti
+ on:=optional",
+                "com.beust.jcommander.*;version="[1.7.0,
+ 3.0.0)";resolution:=optional",
+                "com.google.inject.*;ver
+ sion="[1.2,1.3)";resolution:=optional",
+                "junit.framewor
+ k;version="[3.8.1, 5.0.0)";resolution:=optional",
+                "org.
+ junit.*;resolution:=optional",
+                "org.apache.tools.ant.*;
+ version="[1.7.0, 2.0.0)";resolution:=optional",
+                "org.ya
+ ml.*;version="[1.6,2.0)";resolution:=optional",
+                "!com.b
+ eust.testng",
+                "!org.testng.*",
+                "!com.su
+ n.*",
+                "*"
+            
+Automatic-Module-Name: org.testng
+
